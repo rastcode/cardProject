@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;900&display=swap');
+html{
+  box-sizing: border-box;
+  font-size: 10px;
+}
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  direction: ltr;
+  font-family: 'Poppins', serif;
+  height: 100vh;
+}
+/*second h4*/
+.h4bold{
+  font-weight: 600;
+  color: #4D4F62;
+  font-size: 28px;
+}
+/*first h4*/
+.h4slim {
+  font-weight: 300;
+  color: #4D4F62;
+  font-size: 28px;
+}
+/*paragraph*/
+.pslim{
+  font-size: 13px;
+  font-weight: 200;
+  color: #4D4F62;
+  margin: 20px;
+}
+/*the h4 in card*/
+.itemh4{
+  font-weight: 600;
+  color: #4D4F62;
+  font-size: 16px;
+}
+/*the paragraph in card*/
+.itemp{
+  font-weight: 300;
+  color: #4D4F62;
+  font-size: 12px;
+}
+/*main container*/
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 25px;
+}
+/*main style for card*/
+.card{
+  width: 250px;
+  height: 220px;
+  border-top: solid crimson 2px;
+  padding: 25px;
+  margin: 10px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.icon{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+/*the svg style in icon*/
+.iconn{
+  width: 40px;
+  height: 40px;
+
+}
+/*cards component*/
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+/*h4 and paragraph top of the screen*/
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+/*each card style*/
+.red{
+  width: 300px;
+  height: 200px;
+  padding: 25px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-top: solid 3px #EA5454;
+  box-shadow: 0px 3px 5px rgb(110, 122, 138);
+  border-radius: 5px;
+}
+/*each card style*/
+.aqua{
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+  padding: 25px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-top: solid 3px #44D3D2;
+  box-shadow: 0px 3px 5px rgb(110, 122, 138);
+}
+/*each card style*/
+.blue{
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+  padding: 25px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-top: solid 3px #549EF2;
+  box-shadow: 0px 3px 5px rgb(110, 122, 138);
+}
+/*each card style*/
+.orange{
+  border-radius: 5px;
+  width: 300px;
+  height: 200px;
+  padding: 25px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-top: solid 3px #FCAE4A;
+  box-shadow: 0px 3px 5px rgb(110, 122, 138);
+  margin-top: 25px;
+}
+@media (max-width: 1070px) {
+  .cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
