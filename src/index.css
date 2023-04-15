@@ -16,69 +16,120 @@ html{
 body {
   direction: ltr;
   font-family: 'Poppins', serif;
-  height: 100vh;
+  width: 100%;
+
 }
 /*second h4*/
 .h4bold{
   font-weight: 600;
   color: #4D4F62;
-  font-size: 28px;
+  font-size: 36px;
+  line-height: 54px;
+  letter-spacing: 0.25px;
+  text-align: center;
+  height: 54px;
+  width: 442px;
+  left: 1px;
+  top: 51px;
+
+
 }
 /*first h4*/
 .h4slim {
-  font-weight: 300;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 275;
   color: #4D4F62;
-  font-size: 28px;
+  font-size: 36px;
+  line-height: 54px;
+  letter-spacing: 0.25px;
+  height: 54px;
+  width: 445px;
+
+
 }
 /*paragraph*/
 .pslim{
-  font-size: 13px;
-  font-weight: 200;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.104167px;
   color: #4D4F62;
-  margin: 20px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  height: 50px;
+  width: 540px;
+  left: 0px;
+  top: 118px;
+  margin-bottom: 25px;
+
 }
 /*the h4 in card*/
 .itemh4{
+  font-family: 'Poppins';
+  font-style: normal;
   font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  height: 30px;
+  width: 200px;
+  left: 32px;
+  top: 40px;
   color: #4D4F62;
-  font-size: 16px;
+
 }
 /*the paragraph in card*/
 .itemp{
-  font-weight: 300;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.0902777761220932px;
+  text-align: left;
+  height: 46px;
+  width: 286px;
+  left: 32px;
+  top: 76px;
   color: #4D4F62;
-  font-size: 12px;
+  opacity: 0.5;
+
 }
 /*main container*/
 .container{
+
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
   padding: 25px;
+
+
 }
 /*main style for card*/
 .card{
-  width: 250px;
-  height: 220px;
+
+  width: 350px;
+  height: 266.04px;
   border-top: solid crimson 2px;
   padding: 25px;
   margin: 10px;
-
   display: flex;
   justify-content: space-between;
-}
-.icon{
-  display: flex;
-  align-items: center;
-  justify-content: end;
-}
-/*the svg style in icon*/
-.iconn{
-  width: 40px;
-  height: 40px;
+  align-items: end;
+  flex-direction: column;
 
 }
+.icon{
+
+  width: 64px;
+  height: 68.11px;
+
+
+
+}
+/*the svg style in icon*/
+
 /*cards component*/
 .cards{
   display: flex;
@@ -97,58 +148,182 @@ body {
 }
 /*each card style*/
 .red{
-  width: 300px;
-  height: 200px;
+  width: 350px;
+  height: 266.04px;
+
+  border-radius: 8px;
   padding: 25px;
   margin: 10px;
   display: flex;
+  background: #FFFFFF;
   justify-content: space-between;
-  border-top: solid 3px #EA5454;
-  box-shadow: 0px 3px 5px rgb(110, 122, 138);
-  border-radius: 5px;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  border-top: solid 4.26px #EA5454;
 }
 /*each card style*/
 .aqua{
-  width: 300px;
-  height: 200px;
-  border-radius: 5px;
+  width: 350px;
+  height: 266.04px;
+
+  border-radius: 8px;
   padding: 25px;
   margin: 10px;
   display: flex;
+  background: #FFFFFF;
   justify-content: space-between;
-  border-top: solid 3px #44D3D2;
-  box-shadow: 0px 3px 5px rgb(110, 122, 138);
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  border-top: solid 4.26px #44D3D2;
+
 }
 /*each card style*/
 .blue{
-  width: 300px;
-  height: 200px;
-  border-radius: 5px;
+
+  width: 350px;
+  height: 266.04px;
+
+  border-radius: 8px;
   padding: 25px;
   margin: 10px;
   display: flex;
   justify-content: space-between;
-  border-top: solid 3px #549EF2;
-  box-shadow: 0px 3px 5px rgb(110, 122, 138);
+  border: 1px solid #D9D9D9;
+  background: #FFFFFF;
+  border-top: solid 4.26px #377FD2;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+
 }
 /*each card style*/
 .orange{
-  border-radius: 5px;
-  width: 300px;
-  height: 200px;
+  border-radius: 8px;
+  width: 350px;
+  height: 266.04px;
+
   padding: 25px;
   margin: 10px;
   display: flex;
   justify-content: space-between;
-  border-top: solid 3px #FCAE4A;
-  box-shadow: 0px 3px 5px rgb(110, 122, 138);
+  background: #FFFFFF;
+  border-top: solid 4.26px #FCAE4A;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+
   margin-top: 25px;
 }
 @media (max-width: 1070px) {
+
   .cards{
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
+  }
+  .pslim{
+    height: 75px;
+    width: 311px;
+    margin-bottom: 25px;
+
+
+  }
+  .h4bold{
+    osition: absolute;
+    height: 36px;
+    left: 0.34%;
+    right: 0.34%;
+    top: calc(50% - 36px/2 + 20px);
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.166667px;
+
+    color: #4D4F62;
+
+
+  }
+  .h4slim{
+    height: 36px;
+    width: 297px;
+    left: 0px;
+    top: 0px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 275;
+    line-height: 36px;
+    letter-spacing: 0.1666666716337204px;
+    text-align: left;
+
+
+  }
+  .card{
+    height: 222px;
+    width: 311px;
+    border-radius: 8px;
+    left: 32px;
+    top: 322px;
+
+
+  }
+  .red{
+    height: 222px;
+    width: 311px;
+    border-radius: 8px;
+    left: 32px;
+    top: 322px;
+    border-top: solid 3.55px #EA5454;
+
+  }
+  .aqua{
+    height: 222px;
+    width: 311px;
+    border-radius: 8px;
+    left: 32px;
+    top: 322px;
+    border-top: solid 3.55px #44D3D2;
+
+  }
+  .blue{
+    height: 222px;
+    width: 311px;
+    border-radius: 8px;
+    left: 32px;
+    top: 322px;
+    border-top: solid 3.55px #377FD2;
+
+  }
+  .orange{
+    height: 222px;
+    width: 311px;
+    border-radius: 8px;
+    left: 32px;
+    top: 322px;
+    border-top: solid 3.55px #FCAE4A;
+
+  }
+  .itemh4{
+    height: 30px;
+    width: 135px;
+    left: 28px;
+    top: 27px;
+
+
+  }
+  .itemp{
+    height: 46px;
+    width: 254px;
+    left: 29px;
+    top: 58px;
+
+
+  }
+  .icon{
+    height: 57px;
+    width: 57px;
+    left: 226px;
+    top: 137px;
+    border-radius: 0px;
+
   }
 }
