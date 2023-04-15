@@ -223,22 +223,19 @@ body {
 
   }
   .h4bold{
-    osition: absolute;
     height: 36px;
-    left: 0.34%;
-    right: 0.34%;
-    top: calc(50% - 36px/2 + 20px);
+    width: 295px;
+    left: 1px;
+    top: 37px;
+
 
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
-    /* identical to box height */
-
     text-align: center;
     letter-spacing: 0.166667px;
-
     color: #4D4F62;
 
 
@@ -246,16 +243,13 @@ body {
   .h4slim{
     height: 36px;
     width: 297px;
-    left: 0px;
-    top: 0px;
     font-family: Poppins;
     font-size: 24px;
     font-weight: 275;
     line-height: 36px;
     letter-spacing: 0.1666666716337204px;
     text-align: left;
-
-
+    olor: #4D4F62;
   }
   .card{
     height: 222px;
