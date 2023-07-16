@@ -4,8 +4,8 @@
 ![](./mobile-design.jpg)
 
 ### Links
+[Live Site URL](https://rastcode-card1.netlify.app)
 
-- Live Site URL:(https://rastcode-card1.netlify.app)
 
 ## My process
 
@@ -20,8 +20,11 @@
 - [Styled Components](https://styled-components.com/) - For styles
 
 ### What I learned
+- How to use Figma
+- React components
+- css
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+
 
 To see how you can add code snippets, see below:
 
@@ -44,5 +47,5 @@ const proudOfThisFunc = () => {
 ## Author
 
 - Website - [Ali Nemati](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [developing](https://www.frontendmentor.io/profile/yourusername)
+
